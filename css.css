@@ -5,11 +5,11 @@
 }
 
 html, body{
-    margin: 0;
-    height: 100%;
-    background: linear-gradient(to bottom, #D26B9D,#B793C9, #4E499E);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #D26B9D,#B793C9, #4E499E);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 @media (max-width: 600px) {
   nav ul {
@@ -24,39 +24,48 @@ html, body{
 
 nav{
   padding: 5px;
-  display: block;
+  display: flex;
   background: linear-gradient(to left, #D26B9D,#B793C9, #4E499E);
-  
+  justify-content: space-between; 
+  align-items: center;
 }
+
+
 .navigation-section{
-    display: flex;
-    justify-content: right;
-    padding: 0;
-    list-style: none;
-    font-size: large;
-    
+  display: flex;
+  padding: 0;
+  list-style: none;
+  font-size: large;
 }
+
 .navigation-items{
-    margin: 0 15px;
-    padding-bottom: 5px;
+  margin: 0 15px;
+  padding-bottom: 5px;
+}
+
+.navigation-link1{
+  background: linear-gradient(90deg, #A2BEDC, #F5F5F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .navigation-link{
-    text-decoration: none;
-    color: #042440;
-    padding: 10px 15px;
+  text-decoration: none;
+  color: #042440;
+  padding: 10px 15px;
 }
 
 .navigation-link:hover{
-    color: #a2bedc;
-
+  color: #a2bedc;
 }
 
 img{
   margin: auto;
   width: 300px;
   display: block;
-  
+  border-radius: 300px; 
+  box-shadow: -17px 14px 40px rgba(4, 36, 64, 0.75);
 }
 
 .div-one{
@@ -65,4 +74,20 @@ img{
   justify-content: center;
   background: linear-gradient(to left, #D26B9D,#B793C9, #4E499E);
   border-bottom: 1px solid #a2bedc;
+}
+
+h4{
+   font-family:italianno;
+   font-weight: 100;
+}
+
+h1{
+  font-family:italianno;
+   font-weight: 300;
+}
+
+.text-my{
+  padding-left: 15px;
+  align-items: center;
+  
 }
